@@ -1,2 +1,11 @@
-#This will become RealTimeDraw.py
+from PygameWindow import PYGAME_WINDOW
+
+pygameWindow = PYGAME_WINDOW()
+
+print(pygameWindow)
+
+while (True):
+	pygameWindow.Prepare
+	pass
+	pygameWindow.Reveal
 
